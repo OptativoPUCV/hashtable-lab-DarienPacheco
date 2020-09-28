@@ -61,8 +61,8 @@ HashMap * createMap(long capacity) {
   if (nuevo == NULL) return NULL;
   nuevo->current = -1;
   nuevo->capacity = capacity;
-  nuevo->buckets = (Pair**)malloc(sizeof(Pair*));
-  
+  nuevo->buckets = (Pair**)calloc(capacity, sizeof(Pair*));
+  //nuevo->size =
 
   return nuevo;
 }
