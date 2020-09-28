@@ -61,9 +61,10 @@ HashMap * createMap(long capacity) {
   if (nuevo == NULL) return NULL;
   nuevo->current = -1;
   nuevo->capacity = capacity;
-  nuevo->buckets = NULL;
+  nuevo->buckets = (Pair**)malloc(sizeof(Pair*));
+  
 
-  return NULL;
+  return nuevo;
 }
 
 void eraseMap(HashMap * map,  char * key) {    
