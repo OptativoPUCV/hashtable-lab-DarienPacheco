@@ -28,3 +28,9 @@ Fri Apr 16 20:20:16 UTC 2021:
  tests:  1|5
 total_score: 10/70
 4bd3cb4
+Fri Apr 16 21:18:32 UTC 2021: 
+ hashmap.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+ tests:  1|5
+total_score: 10/70
+73ac058
